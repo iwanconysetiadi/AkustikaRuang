@@ -1,0 +1,20 @@
+parameter,value,unit,notes
+length,8,m,room dimension
+width,6,m,room dimension
+height,3,m,room dimension
+wall_partition_area,10,m2,main wall
+wall_R,45,dB,sound reduction index at 500 Hz
+door_area,2,m2,door
+door_R,20,dB,sound reduction index at 500 Hz
+Lw,95,dB,source sound power level
+Q,2,1,directivity factor
+receiver_distance,2,m,source-room receiver distance
+target_Req,40,dB,project target
+target_T60,0.8,s,project target
+target_receiver_Lp,40,dB,project target
+floor_area,48,m2,room surface
+floor_alpha,0.10,1,500 Hz baseline
+ceiling_area,48,m2,room surface
+ceiling_alpha,0.10,1,500 Hz baseline
+wall_surface_area,84,m2,remaining room walls
+wall_alpha,0.08,1,500 Hz baseline
